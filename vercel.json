@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "api/trackSales.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+      { "src": "/api/trackSales", "dest": "/api/trackSales.js" }
+    ]
+  }
+  
